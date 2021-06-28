@@ -25,4 +25,27 @@ h1{font-size: 64px;
                          text-align: center;
                          color: #FFFFFF;
                          text-transform: uppercase;}
+                         .menu{border: 3px solid #14b42a;padding: 10px
+                            30px
+                            ;margin: 20px 10px;height: 30px;;}
+                            .example-heading{border: 3px solid #5A98D0;padding: 20px 40px 10px 10px;margin:  10px 1000px 10px 10px}
+                            .example-style{border: 3px solid rgb(80, 25, 231);margin: 10px;}
+                            .block-green{border: 3px solid rgb(33, 161, 21);margin: 20px 0px 10px 0px;padding: 10px 10px 30px 10px;}
+                            .example-block{border: 3px solid rgb(235, 26, 182);;margin: 20px 1200px -15px -13px;padding: 10px 10px 10px 10px;}
+                            .example-red{border: 3px solid rgb(240, 27, 27);margin: 10px;padding: 20px 400px;}
+                            .footer-yellow{border: 3px solid rgb(209, 212, 26);margin: 10px ;}
+                            .footer-blue{border: 3px solid rgb(152, 131, 192);margin: 30px 1200px 20px -3px;
+                            padding: 50px 30px;}
+                            .footer-line{height: 5px;background-color: rgb(121, 80, 233);}
+                            .footer-green{border: 3px solid rgb(87, 219, 98);margin: 10px;}
+                            .footer-block{border: 3px solid rgb(108, 95, 219);margin: 20px -3px 40px -3px;padding: 20px;}
+                            .block-contacts{border: 3px solid rgb(46, 12, 243);padding: 10px;}
+                            .block-image{border: 3px solid rgb(122, 22, 22);margin: 20px 1000px 10px 0px ;padding: 20px;}
+                        .block-adress{border: 3px solid rgb(102, 38, 38);margin: -458px 20px 10px 800px ;padding: 20px;box-shadow: 20px 20px 10px 10px rgba(78, 9, 158, 0.027);}
+                        .block-navigator{border: 3px solid rgb(19, 10, 134);}
+                        .block-footer{border: 3px solid rgb(22, 204, 104);}
+                        .line{height: 5px;background-color: rgb(121, 80, 233);}
+                        .footer-contacts{border: 3px solid rgb(7, 245, 233);margin: 20px 0px 20px -40px;padding: 20px 20px 10px 40px;}
+
+
 
