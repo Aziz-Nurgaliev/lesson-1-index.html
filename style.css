@@ -1,23 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+    
+    .container{
+        width: 1140px;
+        margin: 0 auto;justify-content: center;
+        }
+        *{box-sizing: border-box};
+        
 body{font-family:sans-serif ;}
 p{ font-size: 16px;
      line-height: 26px;
      color: #1F3F68;}
-h1{font-size: 64px;
-     color: #1F3F68;}
-     .style_2{ font-weight: 500;
+     .style-2{ width:  510px;
          font-size: 44px;
-        text-align: center;}
+        text-align: center;width: 425px;}
         .style_3{font-size: 36px;
              text-align: center;}
              .style_4{ font-size: 20px;
                  line-height: 30px;
                  color: #1F3F68;}
-                 .input{ border: 1px solid #356EAD;
+                 .block-image{border: 3px solid rgba(223, 22, 22, 0.637);margin: 20px 400px 10px 0px ;padding: 20px;display: flex;}
+                 .input{ border: 2px solid #356daddc;
                      box-sizing: border-box;
                      border-radius: 10px;
                      opacity: 0.4;}
                      .button{ background: #5A98D0;
-                         box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+                         box-shadow: 5px 20px 50px rgba(16, 113, 177, 0.425);
                          border-radius: 10px;
                          font-weight: 500;
                          font-size: 16px;
@@ -25,22 +35,25 @@ h1{font-size: 64px;
                          text-align: center;
                          color: #FFFFFF;
                          text-transform: uppercase;}
-                         .menu{border: 3px solid #14b42a;padding: 10px
+                         .menu{border: 3px solid #f2f3ee00;padding: 10px
                             30px
                             ;margin: 20px 10px;height: 30px;;}
-                            .example-heading{border: 3px solid #5A98D0;padding: 20px 40px 10px 10px;margin:  10px 1000px 10px 10px}
-                            .example-style{border: 3px solid rgb(80, 25, 231);margin: 10px;}
-                            .block-green{border: 3px solid rgb(33, 161, 21);margin: 20px 0px 10px 0px;padding: 10px 10px 30px 10px;}
-                            .example-block{border: 3px solid rgb(235, 26, 182);;margin: 20px 1200px -15px -13px;padding: 10px 10px 10px 10px;}
+                            .example-heading{border: 3px solid #2c8b0f;margin: 20px 500px 10px 10px;
+                                color: #2631ce;width: 510px;margin:  10px 10px 10px 10px}
+                            .example-style {border: 3px solid rgb(80, 25, 231);margin: 10px;}
+                            .block-green{border: 3px solid rgb(33, 161, 21);margin: 20px 0px 10px 0px;padding: 10px 10px 30px 10px;display: flex;justify-content: space-around;align-items: stretch;height: 300px;}
+                            
+                            .example-block{border: 3px solid rgb(235, 26, 182);width: 359px;display: flex;}
+                            
                             .example-red{border: 3px solid rgb(240, 27, 27);margin: 10px;padding: 20px 400px;}
                             .footer-yellow{border: 3px solid rgb(209, 212, 26);margin: 10px ;}
                             .footer-blue{border: 3px solid rgb(152, 131, 192);margin: 30px 1200px 20px -3px;
-                            padding: 50px 30px;}
+                            padding: 50px 30px;width: 495px;}
                             .footer-line{height: 5px;background-color: rgb(121, 80, 233);}
-                            .footer-green{border: 3px solid rgb(87, 219, 98);margin: 10px;}
+                            .footer-green{border: 3px solid rgb(87, 219, 98);margin: 10px;display:flex;justify-content:space-around;}
                             .footer-block{border: 3px solid rgb(108, 95, 219);margin: 20px -3px 40px -3px;padding: 20px;}
-                            .block-contacts{border: 3px solid rgb(46, 12, 243);padding: 10px;}
-                            .block-image{border: 3px solid rgb(122, 22, 22);margin: 20px 1000px 10px 0px ;padding: 20px;}
+                            .block-contacts{border: 3px solid rgb(46, 12, 243);padding: 10px;margin: 100px;}
+                          
                         .block-adress{border: 3px solid rgb(102, 38, 38);margin: -458px 20px 10px 800px ;padding: 20px;box-shadow: 20px 20px 10px 10px rgba(78, 9, 158, 0.027);}
                         .block-navigator{border: 3px solid rgb(19, 10, 134);}
                         .block-footer{border: 3px solid rgb(22, 204, 104);}
